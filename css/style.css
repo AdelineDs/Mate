@@ -398,6 +398,37 @@ td {
     line-height: 1.5
 }
 
+/*-- TEAM --*/
+
+#team h1 {
+    font-size: 2.2em;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.intro_team {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.1em;
+}
+
+.membres {
+    display: flex;
+    flex-direction: row;
+}
+
+.membres article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    background-color: #f1f1f1;
+}
+
+.membres img {
+    max-width: 100%;
+}
+
 /* -- ICONES --*/
 
 .lnr {

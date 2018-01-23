@@ -1,20 +1,28 @@
 /*Définition styles principaux*/
 
 #block_page {
-    max-width: 70%;
+    max-width: 100%;
     margin: auto;
 }
 
 body {
     color: black;
-    margin-top: 20px;
+    margin: 0px;
 }
 
 header {
+    margin: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    max-width: 70%;
+
+}
+
+.home_menu {
+    background-image: url(..//img/hero-area.jpg);
+    background-size: cover;
 }
 
 .logo {
@@ -31,7 +39,7 @@ nav ul {
 }
 
 nav a {
-    color: #FFFFFF;
+    color: #64d2b4;
     text-decoration: none;
     font-size: 1.1em;
     margin-right: 40px;

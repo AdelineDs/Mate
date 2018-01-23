@@ -1,0 +1,319 @@
+/*Définition styles principaux*/
+
+#block_page {
+    max-width: 70%;
+    margin: auto;
+}
+
+body {
+    color: black;
+    margin-top: 20px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: inline-block;
+    width: auto;
+    align-items: center;
+}
+
+/*Navigation*/
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1.1em;
+    margin-right: 40px;
+}
+
+nav a:visited {
+    color: grey;
+}
+
+nav a:hover {
+    color: #61D2B4;
+}
+
+/* -- SECTIONS --*/
+
+#home,
+#services,
+#features,
+#works,
+#pricing,
+#team,
+#blog,
+#contact {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.separation {
+    width: 50px;
+    background-color: #64d2b4;
+    height: 2px;
+    border: 0px;
+    margin: 0px;
+}
+
+/* -- Home --*/
+
+#home input {
+    color: white;
+    background: #61d2b4;
+    border-radius: 20px;
+    padding: 10px 30px;
+    border-style: none;
+}
+
+#home input:hover {
+
+    background: #61d2b4;
+
+}
+
+/* -- SERVICES --*/
+
+.services {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro_services {
+    text-align: center;
+}
+
+.services article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+#services span {
+    border: solid 2px #64d2b4;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+#services span:hover {
+    color: white;
+    background-color: #64d2b4;
+    padding: 10px;
+    border-radius: 30px;
+
+}
+
+
+
+/*-- FEATURES --*/
+
+.intro_features {
+    text-align: center;
+}
+
+.features {
+    display: flex;
+    flex-direction: row;
+}
+
+.features article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.features_articles {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#features span {
+    border: solid 2px #64d2b4;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+#features span:hover {
+    color: white;
+    background-color: #64d2b4;
+    padding: 10px;
+    border-radius: 30px;
+
+}
+
+/*-- WORKS --*/
+
+#works h1 {
+    margin-bottom: 10px;
+}
+
+#works button {
+    color: white;
+    background: #61d2b4;
+    border-radius: 20px;
+    padding: 10px 30px;
+    border-style: none;
+    margin-bottom: 30px;
+}
+
+.intro_portfolio {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#portfolio {
+    display: flex;
+    flex: row;
+    flex-wrap: wrap;
+    margin-right: -100px;
+}
+
+#portfolio img {
+    width: 370px;
+    height: 277px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.video {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #64d2b4;
+    padding: 0px 15px 20px 15px;
+    min-width: 100%;
+
+}
+
+.video p {
+    text-align: center;
+    padding: 0px 70px 20px 70px;
+}
+
+.video span {
+    color: white;
+    border: solid 2px white;
+    padding: 20px;
+    border-radius: 50px;
+
+}
+
+/*-- PRICING --*/
+
+.intro_pricing {
+    text-align: center;
+}
+
+.forfaits {
+    display: flex;
+    flex-direction: row;
+}
+
+#pricing article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 1px #f1f1f1;
+    margin: 20px;
+    text-align: center;
+}
+
+
+li {
+    margin-bottom: 25px;
+    list-style-type: none;
+}
+
+#pricing ul {
+    margin: 25px;
+    padding: 0px;
+}
+
+.prix {
+    color: #64d1b4;
+    font-weight: bold;
+    font-size: 2.5em;
+    margin: 1px;
+}
+
+#pricing button {
+    color: white;
+    background: #61d2b4;
+    border-radius: 20px;
+    padding: 10px 30px;
+    border-style: none;
+    margin-bottom: 15px;
+}
+
+.nom_forfait {
+    background-color: #f1f1f1;
+    font-weight: bold;
+    font-size: 1.5em
+}
+
+.nom_forfait td {
+    padding: 20px;
+
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px 35px;
+}
+
+.statistiques {
+    display: flex;
+    background-image: url(../img/counter.jpg);
+    background-size: cover;
+}
+
+.statistiques figure {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+}
+
+.statistiques span {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.statistiques figcaption {
+    line-height: 2
+}
+
+/* -- ICONES --*/
+
+.lnr {
+    color: #61d2b4;
+    font-size: 30px;
+    /* To get crisp results, use sizes that are
+  a multiple of 20; because Linearicons was
+  designed on a 20 by 20 grid. */
+}

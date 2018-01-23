@@ -69,6 +69,8 @@ nav a:hover {
     justify-content: space-around;
     align-items: center;
     margin-top: 50px;
+    max-width: 70%;
+    margin: auto;
 }
 
 .separation {
@@ -145,32 +147,59 @@ nav a:hover {
 
 /*-- FEATURES --*/
 
+.bloc_features {
+    background-image: url(..//img/bg1.jpg);
+    background-size: cover;
+    color: white;
+}
+
+#features h1 {
+    font-size: 2.2em;
+    margin-top: 70px;
+}
+
 .intro_features {
     text-align: center;
+    font-size: 1.1em;
 }
 
 .features {
     display: flex;
     flex-direction: row;
+    vertical-align: top;
+}
+
+.features img {
+    margin-top: -100px
 }
 
 .features article {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     padding: 20px;
+    margin-top: 30px;
 }
 
 .features_articles {
     display: flex;
     flex-direction: row;
+}
 
+.text_features h3 {
+    margin: 0px;
+    color: #64d2b4;
+}
+
+.text_features p {
+    margin-top: 5px;
 }
 
 #features span {
     border: solid 2px #64d2b4;
     padding: 10px;
     border-radius: 30px;
+    margin-right: 20px;
 }
 
 #features span:hover {

@@ -36,10 +36,11 @@ header {
 nav ul {
     list-style-type: none;
     display: flex;
+    padding-top: 25px;
 }
 
 nav a {
-    color: #64d2b4;
+    color: #FFFFFF;
     text-decoration: none;
     font-size: 1.1em;
     margin-right: 40px;
@@ -80,18 +81,30 @@ nav a:hover {
 
 /* -- Home --*/
 
+#home {
+    color: white;
+    padding: 20px 0px 100px 0px;
+}
+
+#home h1 {
+    font-size: 3em;
+}
+
+#home p {
+    font-size: 1.3em;
+}
+
 #home input {
     color: white;
     background: #61d2b4;
     border-radius: 20px;
     padding: 10px 30px;
     border-style: none;
+    margin-top: 50px
 }
 
 #home input:hover {
-
-    background: #61d2b4;
-
+    background: #d2b4;
 }
 
 /* -- SERVICES --*/

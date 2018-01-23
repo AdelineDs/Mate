@@ -258,10 +258,22 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #64d2b4;
     padding: 0px 15px 20px 15px;
-    min-width: 100%;
+    max-width: 70%;
+    margin: auto;
 
+}
+
+.bloc_video {
+    background: #64d2b4;
+    max-width: 100%;
+    margin: 0px;
+    margin: 50px;
+
+}
+
+.video h2 {
+    font-size: 2.2em
 }
 
 .video p {
@@ -279,13 +291,22 @@ nav a:hover {
 
 /*-- PRICING --*/
 
+#pricing h1 {
+    font-size: 2.2em;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
 .intro_pricing {
     text-align: center;
+    margin-top: 20px;
+    font-size: 1.1em;
 }
 
 .forfaits {
     display: flex;
     flex-direction: row;
+    margin-bottom: 60px;
 }
 
 #pricing article {
@@ -343,10 +364,16 @@ td {
     padding: 10px 35px;
 }
 
-.statistiques {
-    display: flex;
+.bloc_stats {
     background-image: url(../img/counter.jpg);
     background-size: cover;
+    padding: 60px;
+}
+
+.statistiques {
+    display: flex;
+    max-width: 70%;
+    margin: auto;
 }
 
 .statistiques figure {
@@ -363,8 +390,12 @@ td {
     font-size: 2em;
 }
 
+.statistiques strong {
+    font-size: 1.5em;
+}
+
 .statistiques figcaption {
-    line-height: 2
+    line-height: 1.5
 }
 
 /* -- ICONES --*/

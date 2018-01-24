@@ -31,6 +31,16 @@ header {
     align-items: center;
 }
 
+/* -- ICONES --*/
+
+.lnr {
+    color: #61d2b4;
+    font-size: 30px;
+    /* To get crisp results, use sizes that are
+  a multiple of 20; because Linearicons was
+  designed on a 20 by 20 grid. */
+}
+
 /*Navigation*/
 
 nav ul {
@@ -107,11 +117,18 @@ nav a:hover {
 
 /* -- SERVICES --*/
 
+#services h1 {
+    font-size: 2.2em;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
 .services {
     flex-direction: row;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .intro_services {
@@ -408,6 +425,7 @@ td {
 .membres {
     display: flex;
     flex-direction: row;
+    margin-bottom: 50px;
 }
 
 .membres article {
@@ -474,6 +492,7 @@ td {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .intro_blog {
@@ -527,13 +546,64 @@ td {
     margin-right: 15px
 }
 
+/*-- CONTACT --*/
 
-/* -- ICONES --*/
-
-.lnr {
-    color: #61d2b4;
-    font-size: 30px;
-    /* To get crisp results, use sizes that are
-  a multiple of 20; because Linearicons was
-  designed on a 20 by 20 grid. */
+.bloc_contact {
+    background-color: #343A40;
+    background-size: cover;
+    padding: 60px;
 }
+
+#contact h2 {
+    font-size: 2em;
+}
+
+#contact {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+}
+
+.text_contact {
+    flex: 1;
+    color: white;
+    line-height: 2;
+    margin-right: 50px
+}
+
+em {
+    color: #64d2b4;
+    font-style: normal;
+}
+
+#contact form {
+    flex: 1.5;
+}
+
+#contact fieldset {
+    display: flex;
+    border: none;
+}
+
+#nom,
+#email,
+textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    padding: 15px 0px;
+    background-color: #343a40;
+    border: solid 1px white;
+}
+
+#envoyer {
+    color: white;
+    background: #61d2b4;
+    border-radius: 20px;
+    padding: 10px 30px;
+    border-style: none;
+    margin-bottom: 15px;
+    margin: auto;
+}
+
+/*-- FOOTER --*/

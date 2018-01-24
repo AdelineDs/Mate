@@ -333,23 +333,24 @@
                 </article>
             </div>
         </section>
-        <section id="contact">
-            <h2>CONCTACT WITH US</h2>
-            <hr class="separation" />
-            <div class="formulaire">
-                <p>Centerville Road, DE 19808, US<br/>Phone: (+94 123 456 789)<br/>E-mail: (contact@mate.com)</p>
+        <div class="bloc_contact">
+            <section id="contact">
+                <div class="text_contact">
+                    <h2>CONCTACT WITH US</h2>
+                    <p>Centerville Road, DE 19808, US<br/>Phone: <em>(+94 123 456 789)</em><br/>E-mail: <em>(contact@mate.com)</em></p>
+                </div>
                 <form method="post" action="traitement.php">
                     <!--action = fictif-->
                     <fieldset>
-                        <input type="text" name="nom" id="nom" placeHolder="Your Name" />
-                        <input type="email" name="email" id="email" placeholder="Your Email" />
+                        <input type="text" name="nom" id="nom" placeHolder="Your Name" required />
+                        <input type="email" name="email" id="email" placeholder="Your Email" required />
 
-                        <textarea name="message" id="message" rows="5" cols="80" placeholder="Your message"></textarea>
+                        <textarea name="message" id="message" rows="5" cols="80" placeholder="Your message" required></textarea>
                         <input type="submit" name="envoyer" value="Send Message" id="envoyer" />
                     </fieldset>
                 </form>
-            </div>
-        </section>
+            </section>
+        </div>
     </div>
 </body>
 

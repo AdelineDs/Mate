@@ -607,3 +607,34 @@ textarea {
 }
 
 /*-- FOOTER --*/
+
+footer {
+    background-color: #292F35;
+    color: white;
+}
+
+.footer {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    max-width: 70%;
+    margin: auto;
+}
+
+.footer ul {
+    list-style-type: none;
+    display: flex;
+    padding-top: 25px;
+}
+
+.footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.footer a:hover {
+    color: #61D2B4;
+}

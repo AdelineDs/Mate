@@ -254,6 +254,7 @@ nav a:hover {
     flex: row;
     flex-wrap: wrap;
     margin-right: -100px;
+    margin-bottom: 50px;
 }
 
 #portfolio img {

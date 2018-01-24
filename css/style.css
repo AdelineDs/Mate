@@ -46,10 +46,6 @@ nav a {
     margin-right: 40px;
 }
 
-nav a:visited {
-    color: grey;
-}
-
 nav a:hover {
     color: #61D2B4;
 }
